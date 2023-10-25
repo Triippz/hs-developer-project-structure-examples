@@ -1,0 +1,1 @@
+# hs-developer-project-structure-examples
