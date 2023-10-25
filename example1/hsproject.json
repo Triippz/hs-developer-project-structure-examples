@@ -1,0 +1,7 @@
+{
+  "name": "example-1",
+  "srcDir": "src",
+  "libs": {
+    "@constants/*": ["src/constants/*"]
+  }
+}

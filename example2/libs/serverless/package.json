@@ -1,0 +1,13 @@
+{
+  "name": "serverless",
+  "version": "0.0.1",
+  "description": "Serverlesss Functions",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "axios": "*",
+    "@hubspot/api-client": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "React alpha starter project",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "ReactExtension.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

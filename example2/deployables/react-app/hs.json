@@ -1,0 +1,11 @@
+{
+  "type": "UIE",
+  "$schema": "https://path.to.schema.com",
+  "location": {
+    "cms": {
+    }
+  },
+  "libs": [
+    "ui-components"
+  ]
+}

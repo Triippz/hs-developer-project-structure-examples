@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "label": "My POC project App",
+  "uid": "poc-auth-component",
+  "data": {
+    "description": "A POC Auth component that's used to generate a private app token",
+    "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+    "public": false
+  }
+}

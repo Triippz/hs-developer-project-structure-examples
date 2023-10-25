@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "React alpha starter project",
+    "location": "crm.record.tab",
+    "fetch": {
+      "targetFunction": "get-meme",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["firstname"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "SERVERLESS",
+  "$schema": "https://path.to.schema.com",
+  "runtime": "nodejs16.x",
+  "version": "1.0",
+  "appFunctions": {
+    "get-data": {
+      "id": "get-data",
+      "file": "./src/get-data.js",
+      "secrets": []
+    }
+  }
+}

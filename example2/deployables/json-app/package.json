@@ -1,0 +1,15 @@
+{
+  "name": "crm",
+  "version": "0.0.1",
+  "description": "React Components for CRM UI",
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {
+    "@hubspot/ui-extensions": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@hubspot/ui-extensions-dev-server": "^0.0.1-prealpha.3"
+  }
+}

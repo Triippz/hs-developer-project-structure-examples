@@ -1,0 +1,36 @@
+{
+  "type": "APP",
+  "imports": {
+    "ui-components": [
+      {
+        "id": "button"
+      }
+    ],
+    "serverless": [
+      {
+        "id": "get-data"
+      }
+    ],
+    "root": "./mid/my-fancy-card.tsx"
+  },
+  "component-config": {
+    "location": {
+      "crm": {
+        "record.tab": {
+          "cards": [
+            {
+              "id": "my-fancy-card-id",
+              "name": "my-fancy-card",
+              "title": "My Company's Quotes",
+              "file": "./mid/my-fancy-card.tsx"
+            }
+          ]
+        },
+        "navbar": {
+          "id": "my-navbar-id",
+          "file": "./nav/custom-navbar.tsx"
+        }
+      }
+    }
+  }
+}

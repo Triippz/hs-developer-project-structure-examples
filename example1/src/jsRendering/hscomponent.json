@@ -1,0 +1,8 @@
+{
+  "type": "cms-js-rendering",
+  "label": "My POC project js rendering",
+  "uid": "poc-js-rendering-component",
+  "data": {
+    "file": "./cmsJSFile.js"
+  }
+}

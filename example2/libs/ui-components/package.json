@@ -1,0 +1,12 @@
+{
+  "name": "ui-components",
+  "version": "0.0.1",
+  "description": "React Components for Project",
+  "license": "MIT",
+  "scripts": {
+  },
+  "dependencies": {
+    "@hubspot/ui-extensions": "*",
+    "react": "*"
+  }
+}

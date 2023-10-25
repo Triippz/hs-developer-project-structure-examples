@@ -1,0 +1,22 @@
+{
+  "type": "serverless",
+  "label": "My POC project function",
+  "uid": "poc-serverless-component",
+  "auth": "poc-auth-component",
+  "imports": {
+    "#constants": "../utils/constants.js"
+  },
+  "data": {
+    "runtime": "nodejs16.x",
+    "functions": {
+      "func1": {
+        "file": "./func1.js",
+        "secrets": []
+      },
+      "func2": {
+        "file": "./func2.js",
+        "secrets": []
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "UIE_LIB",
+  "$schema": "https://path.to.schema.com",
+  "exports": [
+    {
+      "id": "button",
+      "file": "./src/button.tsx"
+    }
+  ]
+}
