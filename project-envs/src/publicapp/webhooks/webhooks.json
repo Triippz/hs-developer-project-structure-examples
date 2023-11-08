@@ -1,0 +1,12 @@
+{
+  // ... existing + prod vals here
+  "targetUrl": "https://api.my-3rd-party-domain.com/incoming",
+  "environments": {
+    "dev": {
+      "targetUrl": "https://api-dev.my-3rd-party-domain.com/incoming"
+    },
+    "qa": {
+      "targetUrl": "https://api-dev.my-3rd-party-domain.com/incoming"
+    }
+  }
+}

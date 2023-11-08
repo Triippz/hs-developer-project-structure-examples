@@ -1,0 +1,23 @@
+{
+  // ... existing + prod vals here
+  "data": {
+    "allowedDomains": [
+      "https://www.example.com",
+      "https://www.example2.com"
+    ]
+  },
+  "environments": {
+    "dev": {
+      "allowedDomains": [
+        "https://dev.example.com",
+        "https://dev.example2.com"
+      ]
+    },
+    "qa": {
+      "allowedDomains": [
+        "https://qa.example.com",
+        "https://qa.example2.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  //... other existing vals here + prod vals
+  "redirectUrls": [
+    "https://api.my-3rd-party-domain.com/oauth/handshake-v2"
+  ],
+  "extensions": [],
+  "authentication": "for-qa-todo-something-about-auth-ing-incoming-webhooks??",
+
+  "environments": {
+    "dev": {
+      "redirectUrls": [
+        "https://api-qa.my-3rd-party-domain.com/oauth/handshake-v2"
+      ],
+      "extensions": [],
+      "authentication": "for-qa-todo-something-about-auth-ing-incoming-webhooks??"
+    },
+    "qa": {
+      "redirectUrls": [
+        "https://api-qa.my-3rd-party-domain.com/oauth/handshake-v2"
+      ],
+      "extensions": [],
+      "authentication": "for-qa-todo-something-about-auth-ing-incoming-webhooks??"
+    }
+  }
+}
