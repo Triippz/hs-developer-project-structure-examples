@@ -1,19 +1,18 @@
-# Single Config Per Component - Monorepo Structure
+# Project Enviroments Example
 
-This example plays on the idea of treating the structure of a project as a mono repo. Where certain components
-are determined to be `deployables` vs `libraries`. The `deployables` are the top level components that are
-deployed to HubSpot. The `libraries` are components that are used by the `deployables` and are not deployed
-to HubSpot. `libraries` are what you may think, they are shared bits of code that are used by multiple
-`deployables`.
-
-An example of a `deployable` is a CRM card. An example of a `library` is a shared auth component or some shared javascript utilities.
-
-The goal of this idea is to make projects feel similar to other technologies that developers are used to working with.
-Such examples in the monorepo space could be:
-- [NX](https://nx.dev/)
-- [Turbo](https://turbo.build/)
-- [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+This assumes the existing structure for components in projects.
 
 
+Each markerfile (app.json, webhooks.json, etc. etc.) would have a
+an optional additional property named `environments` that would be an
+that would contain properties defined by each component, that can override existing properties
+used for production environments.
 
-Much of this example is the same as example1 with regards to config.
+The `hsproject.json` would also contain the field, but will be an array of strings (this could change). Theoretically, when a developer runs
+
+`hs project upload -env dev`
+
+two different things could happen, depending on the route we take.
+
+1. We just create a new project with the name `project-dev` and upload the project there. We add some an additional context to the build inputs for a target environment, the workers will then parse the config to grab the appropriate env properties.
+2. We parse the configs on upload and replace prod values with the appropriate environment values (also create a new project for the env if needed)
